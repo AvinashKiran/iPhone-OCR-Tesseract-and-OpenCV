@@ -28,6 +28,9 @@
 @property (strong, nonatomic) IBOutlet UIButton *BinarizeButton;
 @property (strong, nonatomic) IBOutlet UIButton *originalButton;
 
+@property (nonatomic, retain) NSMutableDictionary *dicData;
+
+
 - (IBAction)TakePhoto:(id)sender;
 - (IBAction)Pre:(id)sender;
 - (IBAction)OCR:(id)sender;
